@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "RRO5Os7CM3vSsOdwHT0qX3TFjfb7wcy37orzv4MVGiDqgndePmWPB4PM4vwwds/E53G4wNDOcFWWr28LsgK4cg==",
+  "dgSpecHash": "4doIiglebEF3cP31RfBe3pgC2HgD2GiGYNI/j+jnQY+1OYqcRJvTtLJ1KRJPE+uXFh7J+HsC/mAH5hYxVDl2Rw==",
   "success": true,
   "projectFilePath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kitan\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\kitan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\kitan\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "C:\\Users\\kitan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\kitan\\.nuget\\packages\\microsoft.extensions.configuration.binder\\5.0.0\\microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
+    "C:\\Users\\kitan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\kitan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\kitan\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\kitan\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\kitan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\kitan\\.nuget\\packages\\mongodb.bson\\2.12.3\\mongodb.bson.2.12.3.nupkg.sha512",

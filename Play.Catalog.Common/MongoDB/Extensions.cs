@@ -1,16 +1,14 @@
-﻿
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
 using MongoDB.Driver;
-using Play.Catalog.Service.Entities;
-using Play.Catalog.Service.Settings;
+using Play.Catalog.Common.Settings;
 
-namespace Play.Catalog.Service.Repositories
+namespace Play.Catalog.Common.MongoDB
 {
-	public static class Extentions
+	public static class Extensions
 	{
 		public static IServiceCollection AddMongo(this IServiceCollection services)
 		{
@@ -18,7 +16,7 @@ namespace Play.Catalog.Service.Repositories
 			BsonSerializer.RegisterSerializer(new DateTimeOffsetSerializer(BsonType.String));
 
 			// Here we deserializing values from appsettings.json.
-			
+
 			// This line we actually constructing mongoclient;
 			services.AddSingleton(serviceProvider =>
 			{
@@ -26,7 +24,6 @@ namespace Play.Catalog.Service.Repositories
 
 				var configuration = serviceProvider.GetService<IConfiguration>();
 				var serviceSettings = configuration.GetSection(nameof(ServiceSettings))
-
 												   .Get<ServiceSettings>();
 				var mongoDbSettings = configuration.GetSection(nameof(MongoDbSettings))
 												   .Get<MongoDbSettings>();
@@ -47,4 +44,3 @@ namespace Play.Catalog.Service.Repositories
 		}
 	}
 }
-  
