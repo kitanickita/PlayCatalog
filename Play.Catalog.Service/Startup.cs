@@ -15,6 +15,7 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
 using MongoDB.Driver;
+using Play.Catalog.Service.Entities;
 using Play.Catalog.Service.Repositories;
 using Play.Catalog.Service.Settings;
 
@@ -41,7 +42,7 @@ namespace Play.Catalog.Service
 			
 										   .Get<ServiceSettings>();
 			// This line we actually constructing mongoclient;
-			services.AddSingleton(serceProvider =>
+			services.AddSingleton( _ =>
 			{
 				var mongoDbSettings = Configuration.GetSection(nameof(MongoDbSettings))
 											   .Get<MongoDbSettings>();
@@ -49,8 +50,12 @@ namespace Play.Catalog.Service
 				return mongoClient.GetDatabase(serviceSettings.ServiceName);
 			});
 			 
-			// We register already existing repository;
-			services.AddSingleton<IItemsRepository, ItemsRepository>();
+			
+			services.AddSingleton<IRepository<Item>>(serviceProvider =>
+			{
+				var database = serviceProvider.GetService<IMongoDatabase>();
+				return new MongoRepository<Item>(database, "items");
+			});
 
 
 			services.AddControllers(options => options.SuppressAsyncSuffixInActionNames = false);

@@ -11,7 +11,6 @@ C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Service\bin\Debug\net5.0\M
 C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.csprojAssemblyReference.cache
 C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.AssemblyInfoInputs.cache
 C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Service\obj\Debug\net5.0\Play.Catalog.Service.AssemblyInfo.cs
