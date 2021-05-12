@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
+    "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Inventory.Service\\Play.Inventory.Service.csproj": {}
   },
   "projects": {
     "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Common\\Play.Common.csproj": {
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
+    "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Inventory.Service\\Play.Inventory.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
-        "projectName": "Play.Catalog.Service",
-        "projectPath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectUniqueName": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Inventory.Service\\Play.Inventory.Service.csproj",
+        "projectName": "Play.Inventory.Service",
+        "projectPath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Inventory.Service\\Play.Inventory.Service.csproj",
         "packagesPath": "C:\\Users\\kitan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Service\\obj\\",
+        "outputPath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Inventory.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kitan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -116,10 +116,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.12.3, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"

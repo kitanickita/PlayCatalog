@@ -309,7 +309,7 @@
           }
         }
       },
-      "Play.Catalog.Common/1.0.0": {
+      "Play.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -319,10 +319,10 @@
           "MongoDB.Driver": "2.12.3"
         },
         "compile": {
-          "bin/placeholder/Play.Catalog.Common.dll": {}
+          "bin/placeholder/Play.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Play.Catalog.Common.dll": {}
+          "bin/placeholder/Play.Common.dll": {}
         }
       }
     }
@@ -832,16 +832,16 @@
         "version.txt"
       ]
     },
-    "Play.Catalog.Common/1.0.0": {
+    "Play.Common/1.0.0": {
       "type": "project",
-      "path": "../Play.Catalog.Common/Play.Catalog.Common.csproj",
-      "msbuildProject": "../Play.Catalog.Common/Play.Catalog.Common.csproj"
+      "path": "../Play.Catalog.Common/Play.Common.csproj",
+      "msbuildProject": "../Play.Catalog.Common/Play.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "MongoDB.Driver >= 2.12.3",
-      "Play.Catalog.Common >= 1.0.0",
+      "Play.Common >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -872,8 +872,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Common\\Play.Catalog.Common.csproj": {
-              "projectPath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Common\\Play.Catalog.Common.csproj"
+            "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Common\\Play.Common.csproj": {
+              "projectPath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Common\\Play.Common.csproj"
             }
           }
         }

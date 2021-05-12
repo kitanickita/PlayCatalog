@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bHDP/CYaNTE6DjL1BXgu3EDl5494tffHJhBPL2bRti7H7+ZvyaXGBODz01N/jdn3jry5cF5GGpZDVj9fKz88Ng==",
+  "dgSpecHash": "qF2snK4WLAC/xGAXzy7wWWmbF53149nEtemGzePIj3Y7F7P/gWWulrGtIhzw7XCPjqGtmeg+NqQeE2f6ZwEu5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+  "projectFilePath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Inventory.Service\\Play.Inventory.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kitan\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\kitan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

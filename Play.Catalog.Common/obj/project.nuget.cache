@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aRusTwf8Y6BJ4hJ13bHB7JHhsZ0re9X6PtGkWfPBDWnthsMMEi9aY9Evs4G4fFE+/3QF/TuiREHrVTdiTGEBZQ==",
+  "dgSpecHash": "hHXzDSmvEOe1mPrJjymOVLmnNodoLiScjkSLuQ201e4v5+IabzgFkt9j6gVgkMlMK3J7n8YwXSDq5/yiFlRQLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Common\\Play.Catalog.Common.csproj",
+  "projectFilePath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Common\\Play.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kitan\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\kitan\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",

@@ -1,0 +1,12 @@
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Common\bin\Debug\net5.0\Play.Common.deps.json
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Common\bin\Debug\net5.0\Play.Common.dll
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Common\bin\Debug\net5.0\ref\Play.Common.dll
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Common\bin\Debug\net5.0\Play.Common.pdb
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Common\obj\Debug\net5.0\Play.Common.csprojAssemblyReference.cache
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Common\obj\Debug\net5.0\Play.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Common\obj\Debug\net5.0\Play.Common.AssemblyInfoInputs.cache
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Common\obj\Debug\net5.0\Play.Common.AssemblyInfo.cs
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Common\obj\Debug\net5.0\Play.Common.csproj.CoreCompileInputs.cache
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Common\obj\Debug\net5.0\Play.Common.dll
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Common\obj\Debug\net5.0\ref\Play.Common.dll
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Common\obj\Debug\net5.0\Play.Common.pdb

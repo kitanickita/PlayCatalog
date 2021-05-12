@@ -34,7 +34,7 @@
       "Play.Catalog.Service/1.0.0": {
         "dependencies": {
           "MongoDB.Driver": "2.12.3",
-          "Play.Catalog.Common": "1.0.0",
+          "Play.Common": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
@@ -548,7 +548,7 @@
           "System.Runtime.CompilerServices.Unsafe": "5.0.0"
         }
       },
-      "Play.Catalog.Common/1.0.0": {
+      "Play.Common/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "5.0.0",
           "Microsoft.Extensions.Configuration.Binder": "5.0.0",
@@ -556,10 +556,10 @@
           "MongoDB.Driver": "2.12.3"
         },
         "runtime": {
-          "Play.Catalog.Common.dll": {}
+          "Play.Common.dll": {}
         },
         "compile": {
-          "Play.Catalog.Common.dll": {}
+          "Play.Common.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2416,7 +2416,7 @@
       "path": "system.text.encoding.codepages/4.5.1",
       "hashPath": "system.text.encoding.codepages.4.5.1.nupkg.sha512"
     },
-    "Play.Catalog.Common/1.0.0": {
+    "Play.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
