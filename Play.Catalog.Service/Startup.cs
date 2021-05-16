@@ -1,3 +1,5 @@
+using MassTransit;
+using MassTransit.Definition;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -9,7 +11,8 @@ using Microsoft.OpenApi.Models;
 using Play.Catalog.Common.MongoDB;
 using Play.Catalog.Common.Settings;
 using Play.Catalog.Service.Entities;
-
+using Play.Common.MassTransit;
+using Play.Common.Settings;
 
 namespace Play.Catalog.Service
 {
@@ -30,7 +33,11 @@ namespace Play.Catalog.Service
 			serviceSettings = Configuration.GetSection(nameof(ServiceSettings))
 											.Get<ServiceSettings>();
 			services.AddMongo()
-					.AddMongoRepository<Item>("items");
+					.AddMongoRepository<Item>("items")
+					.AddMassTransitWithRabbitMQ();
+
+			
+			// this service starts masstransit bas
 			services.AddControllers(options => options.SuppressAsyncSuffixInActionNames = false);
 			services.AddSwaggerGen(c =>
 			{

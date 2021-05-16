@@ -40,6 +40,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.1.8, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.1.8, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -57,6 +65,60 @@
               "version": "[2.12.3, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
+        "projectName": "Play.Catalog.Contracts",
+        "projectPath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
+        "packagesPath": "C:\\Users\\kitan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kitan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "http://10.88.99.105/httpAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -102,6 +164,9 @@
             "projectReferences": {
               "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Common\\Play.Common.csproj": {
                 "projectPath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Common\\Play.Common.csproj"
+              },
+              "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
+                "projectPath": "C:\\Users\\kitan\\source\\repos\\Play.Catalog\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj"
               }
             }
           }

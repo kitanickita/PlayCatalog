@@ -1,0 +1,12 @@
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Contracts\bin\Debug\net5.0\Play.Catalog.Contracts.deps.json
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Contracts\bin\Debug\net5.0\Play.Catalog.Contracts.dll
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Contracts\bin\Debug\net5.0\ref\Play.Catalog.Contracts.dll
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Contracts\bin\Debug\net5.0\Play.Catalog.Contracts.pdb
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Contracts\obj\Debug\net5.0\Play.Catalog.Contracts.csprojAssemblyReference.cache
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Contracts\obj\Debug\net5.0\Play.Catalog.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Contracts\obj\Debug\net5.0\Play.Catalog.Contracts.AssemblyInfoInputs.cache
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Contracts\obj\Debug\net5.0\Play.Catalog.Contracts.AssemblyInfo.cs
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Contracts\obj\Debug\net5.0\Play.Catalog.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Contracts\obj\Debug\net5.0\Play.Catalog.Contracts.dll
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Contracts\obj\Debug\net5.0\ref\Play.Catalog.Contracts.dll
+C:\Users\kitan\source\repos\Play.Catalog\Play.Catalog.Contracts\obj\Debug\net5.0\Play.Catalog.Contracts.pdb

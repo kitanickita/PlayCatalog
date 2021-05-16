@@ -10,6 +10,8 @@ using System.Net.Http;
 using Play.Catalog.Common.MongoDB;
 using Play.Inventory.Service.Clients;
 using Play.Inventory.Service.Entities;
+using Polly;
+using Polly.Timeout;
 
 namespace Play.Inventory.Service
 {
