@@ -34,6 +34,7 @@
       "Play.Inventory.Service/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Http.Polly": "5.0.1",
+          "Play.Catalog.Contracts": "1.0.0",
           "Play.Common": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -1446,6 +1447,14 @@
           "System.Text.Encoding": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.1"
+        }
+      },
+      "Play.Catalog.Contracts/1.0.0": {
+        "runtime": {
+          "Play.Catalog.Contracts.dll": {}
+        },
+        "compile": {
+          "Play.Catalog.Contracts.dll": {}
         }
       },
       "Play.Common/1.0.0": {
@@ -4003,6 +4012,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Play.Catalog.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Play.Common/1.0.0": {
       "type": "project",

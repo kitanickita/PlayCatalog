@@ -56,3 +56,5 @@ C:\Users\kitan\source\repos\Play.Catalog\Play.Inventory.Service\bin\Debug\net5.0
 C:\Users\kitan\source\repos\Play.Catalog\Play.Inventory.Service\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\kitan\source\repos\Play.Catalog\Play.Inventory.Service\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\kitan\source\repos\Play.Catalog\Play.Inventory.Service\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Users\kitan\source\repos\Play.Catalog\Play.Inventory.Service\bin\Debug\net5.0\Play.Catalog.Contracts.dll
+C:\Users\kitan\source\repos\Play.Catalog\Play.Inventory.Service\bin\Debug\net5.0\Play.Catalog.Contracts.pdb
